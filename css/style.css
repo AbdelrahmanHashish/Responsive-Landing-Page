@@ -125,6 +125,29 @@ header nav ul.nav_list li.list a:hover{
 	color:#000;
 }
 
+/* Large Screen ( Lg ) */
+@media(max-width:992px){
+	header{
+		background-color:#000;
+	}
+	
+	header div.logo {
+		text-align:center;
+	}
+	
+	header nav ul.nav_list{
+		text-align:center;
+		padding:0px;
+		display:none;
+	}
+	
+	header i.icon{
+		display:block;
+		color:darkred;
+		
+	}
+}
+
 /*** Extra Small Screen => ( xs ) ***/
 @media(max-width:575px){
 	header{
@@ -381,7 +404,7 @@ section.stat div.stat_info span.stat_info_title{
 }
 
 /*** Large Screen => ( lg ) ***/
-@media(max-width:991px){
+@media(max-width:768px){
 	section.stat{
 		height:950px;
 	}
@@ -745,6 +768,13 @@ section.business div.bs_info button.bs_btn{
 	outline:none;
 	cursor:pointer;
 	text-transform:capitalize;
+}
+
+/* Large Screen ( Lg ) */
+@media(max-width:992px){
+	section.business{
+		height:310px;
+	}
 }
 
 /* Medium Screen ( md ) */
